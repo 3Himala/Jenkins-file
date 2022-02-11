@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('continous download') {
+        stage('continous downloading') {
             steps {
                 git 'https://github.com/3Himala/war-web-project.git'
             }
